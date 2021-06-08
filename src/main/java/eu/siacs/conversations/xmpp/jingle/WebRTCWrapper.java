@@ -59,7 +59,7 @@ public class WebRTCWrapper {
 
     private static final String EXTENDED_LOGGING_TAG = WebRTCWrapper.class.getSimpleName();
 
-    //we should probably keep this in sync with: https://github.com/signalapp/Signal-Android/blob/master/app/src/main/java/org/thoughtcrime/securesms/ApplicationContext.java#L296
+    //we should probably keep this in sync with: https://github.com/signalapp/Signal-Android/blob/master/app/src/main/java/org/thoughtcrime/securesms/RtcDeviceLists.java#L17
     private static final Set<String> HARDWARE_AEC_BLACKLIST = new ImmutableSet.Builder<String>()
             .add("Pixel")
             .add("Pixel XL")
